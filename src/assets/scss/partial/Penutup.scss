@@ -1,0 +1,29 @@
+.penutup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 6vmin 0;
+    background-color: $black-wed;    
+    color: white;
+    .title {
+        font-family: 'Pacifico', cursive;
+        color: $yellow-wed;
+        font-weight: 400;
+        font-size: 7vmin;
+        line-height: 8vmin;
+        margin: 0;
+        margin-bottom: 3vmin;
+        text-align: center;
+    }
+    .deskripsi {
+        width: 100vmin;        
+        text-align: center;
+        margin-bottom: 3vmin;
+        font-size: 2.4vmin;
+    }
+    .salam {
+        width: 100vmin;
+        text-align: center;     
+        font-size: 2.4vmin;   
+    }
+}

@@ -1,0 +1,64 @@
+.arrow-back {    
+    position: absolute;    
+    top: 50%;
+    left: -4vmax;    
+    z-index: 4;
+}
+.arrow-next {    
+    position: absolute;    
+    top: 50%;
+    z-index: 4;    
+    right: -4vmax;    
+}
+.arrow-next:hover, .arrow-back:hover{
+    cursor: pointer;
+}
+.ucapan-container .slick-list, .slick-track {
+    height: 60vmin !important;
+}
+
+.ucapan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 4vmin 0;   
+    background: url('../../images/LEAVES1.png') left top / 25vw 35vh no-repeat; 
+    .title {
+        font-family: 'Pacifico', cursive;
+        color: $yellow-wed;
+        font-weight: 400;
+        font-size: 7vmin;
+        margin: 0;
+    }
+    .carousel {
+        margin-bottom: 4vmin;        
+        .carousel-img {
+            height: 60vmin;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            img {
+                width: 20vmin;
+                transition: 0.5s ease-in-out;
+            }
+            text-align: center;
+            h3 {
+                font-size: 3.5vmin;
+            }
+            p {
+                font-size: 2.6vmin;
+                width: 70%;
+                color: $gray-wed;
+                line-height: 3.2vmin;
+            }
+        }
+    }    
+}
+
+@media (max-width: 885px) {
+    .ucapan-container {
+        background-size: 25vw 15vw;
+    }
+}
