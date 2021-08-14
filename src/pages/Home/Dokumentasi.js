@@ -5,9 +5,9 @@ import Slider from "react-slick";
 import pic1 from '../../assets/images/gallery_1.jpg'
 import pic2 from '../../assets/images/gallery_2.jpg'
 import pic3 from '../../assets/images/gallery_3.jpg'
-import pic5 from '../../assets/images/gallery_5.jpg'
-import pic6 from '../../assets/images/gallery_6.jpg'
-import pic7 from '../../assets/images/gallery_7.jpg'
+// import pic5 from '../../assets/images/gallery_5.jpg'
+// import pic6 from '../../assets/images/gallery_6.jpg'
+// import pic7 from '../../assets/images/gallery_7.jpg'
 import pic8 from '../../assets/images/gallery_8.jpg'
 import arrBack from "../../assets/images/Slider/ArrowBack.png";
 import arrNext from "../../assets/images/Slider/ArrowNext.png";
@@ -76,7 +76,7 @@ function NextArrow(props) {
     //   height: '315',
     //   width: '560',      
     // };
-    const gallery = [pic1, pic2, pic3, pic5, pic6, pic7, pic8]     
+    const gallery = [pic1, pic2, pic3, pic8]     
 
     return (
         <div className="dokumentasi-container" id="gal-wed">            

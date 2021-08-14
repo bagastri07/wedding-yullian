@@ -4,14 +4,13 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 import Akad from './Akad'
-// import Amplop from './Amplop'
 import Dokumentasi from './Dokumentasi'
 import Footer from './Footer'
 import Header from './Header'
 import Penutup from './Penutup'
 import Amplop from './Amplop'
 import Undangan from './Undangan'
-import Ucapan from './Ucapan'
+// import Ucapan from './Ucapan'
 
 import btnOn from '../../assets/images/On.png'
 import btnOff from '../../assets/images/Off.png'
@@ -59,7 +58,7 @@ const Home = () => {
                 <Akad />
                 <Dokumentasi handleBacksound={handleBacksound} />                
                 <Amplop />
-                <Ucapan />
+                {/* <Ucapan /> */}
                 <Penutup />            
                 <Footer />
                 </>

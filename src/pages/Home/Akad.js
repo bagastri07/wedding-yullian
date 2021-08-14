@@ -24,15 +24,15 @@ const Akad = () => {
                 <div className="detail">
                     <div className="detail-wl">
                         <BiTimeFive size="3vmax" color="white" />
-                        <p>14.00 - 19.00 WIB</p>                    
+                        <p>08.00 - 21.00 WIB</p>                    
                     </div>
                     <div className="detail-wl">
                         <FaCalendarAlt size="3vmax" color="white" />
-                        <p>Senin, 2 Agustus 2021</p>
+                        <p>Jum’at, 10 September 2021</p>
                     </div>
                     <div className="detail-wl">
                         <FiMapPin size="3vmax" color="white" />
-                        <p>Jln. Cilik Riwut II Gg. Murai RT 13 Kelurahan Sidorejo</p>
+                        <p>Jl. Pasanah, RT.24, kel. Sidorejo, Kec. Arut Selatan</p>
                     </div>                
 
                 </div>
