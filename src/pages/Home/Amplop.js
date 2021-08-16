@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import imgBarcode from '../../assets/images/qrcode.png'
+import imgBarcode from '../../assets/images/barcode.jpeg'
 import imgBarcode1 from '../../assets/images/transfer_bank.jpg'
 
 const Amplop = () => {
