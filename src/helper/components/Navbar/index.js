@@ -15,13 +15,9 @@ const Navbar = () => {
         {
             route:'#gal-wed',
             text: 'Photo'
-        },
+        },        
         {
-            route:'#vid-wed',
-            text: 'Video'
-        },
-        {
-            route:'#home-sea',
+            route:'https://www.instagram.com/sumiyyatiii___/',
             text: 'Contact Us'
         },
     ]    

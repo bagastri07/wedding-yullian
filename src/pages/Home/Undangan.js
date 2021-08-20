@@ -75,18 +75,18 @@ const Undangan = () => {
                     <p>Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.</p>                
                 </div>
                 <div className="pasangan">
-                    <div className="profil-info">
-                        <p>Sumiyati</p>
-                        <p>Putri dari Bapak Sahe dan Ibu Yulian</p>
+                    <div className="profil-info">                        
+                      <p>Yulian</p>
+                      <p>Putra dari Bapak Sayuti dan Ibu Arliah</p>
                     </div>
                     <div className="profil-pic">
-                        <img className="round-ava" src={avaWanita} alt="" />
-                        <img className="love" src={love} alt="" />
-                        <img className="round-ava" src={avaPria} alt="" />
+                      <img className="round-ava" src={avaPria} alt="" />
+                      <img className="love" src={love} alt="" />
+                      <img className="round-ava" src={avaWanita} alt="" />
                     </div>
                     <div className="profil-info">
-                        <p>Yulian</p>
-                        <p>Putra dari Bapak Sayuti dan Ibu Arliah</p>
+                      <p>Sumiyati</p>
+                      <p>Putri dari Bapak Sahe dan Ibu Surina</p>
                     </div>
                 </div>
                 <div className="stroke">
