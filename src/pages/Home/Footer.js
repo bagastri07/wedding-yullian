@@ -9,7 +9,8 @@ const Footer = () => {
             &#38; <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alfi_nasution">M. Alfi Syahri N </a> <br />
             Icons by <a  target="_blank" rel="noopener noreferrer" href="https://www.freepik.com/">Freepik </a> 
             &#38; <a  target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/">Flaticon</a> <br />
-            Song by <a  target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=1iYUQW6RovY">Perfect - Ed Sheeran &#38; Beyonce (Boyce Avenue acoustic cover)</a>
+            Song by <a  target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=1iYUQW6RovY">Perfect - Ed Sheeran &#38; Beyonce (Boyce Avenue acoustic cover)</a> <br />
+            Supported by <a  target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/airaprojectphoto">Aira Project</a>
             </p>
         </div>
     )
