@@ -22,7 +22,7 @@ const Amplop = () => {
                         btn?
                         <>
                             <img src={imgBarcode} alt="" />
-                            <p>A/N Yulian</p>
+                            <p>A/N Sumiyati</p>
                         </>
                         :
                         <>
