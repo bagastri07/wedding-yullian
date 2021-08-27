@@ -8,8 +8,8 @@ import Dokumentasi from './Dokumentasi'
 import Footer from './Footer'
 import Header from './Header'
 import Penutup from './Penutup'
-import Amplop from './Amplop'
 import Undangan from './Undangan'
+// import Amplop from './Amplop'
 // import Ucapan from './Ucapan'
 
 import btnOn from '../../assets/images/On.png'
@@ -57,18 +57,13 @@ const Home = () => {
                 <Undangan />
                 <Akad />
                 <Dokumentasi handleBacksound={handleBacksound} />                
-                <Amplop />
+                {/* <Amplop /> */}
                 {/* <Ucapan /> */}
                 <Penutup />            
                 <Footer />
                 </>
                 :''
-            }
-            {/* {
-                posts && posts.map((data) => (
-                    <p>{data.title}</p>
-                ))                
-            } */}            
+            }                        
             <div className="btn-audio">     
                 {
                     // music?
